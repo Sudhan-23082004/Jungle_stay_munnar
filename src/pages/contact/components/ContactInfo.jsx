@@ -7,23 +7,23 @@ const ContactInfo = () => {
       id: 1,
       icon: 'Phone',
       title: 'Phone',
-      value: '+91 98765 43210',
-      link: 'tel:+919876543210',
+      value: '+91 90801 00081',
+      link: 'tel:+919080100081',
       description: 'Call us for instant booking'
     },
     {
       id: 2,
       icon: 'Mail',
       title: 'Email',
-      value: 'info@junglestay.com',
-      link: 'mailto:info@junglestay.com',
+      value: 'mashwin789@gmail.com',
+      link: 'mailto:mashwin789@gmail.com',
       description: 'Send us your queries'
     },
     {
       id: 3,
       icon: 'MapPin',
       title: 'Address',
-      value: 'Jungle Resort Road, Bandipur National Park, Karnataka 571126',
+      value: 'Jungle Stay Tent & Cottage, Gundumalai Road, Suryanelli, Munnar, Kerala 685618',
       link: null,
       description: 'Visit our eco-friendly resort'
     }
@@ -41,7 +41,7 @@ const ContactInfo = () => {
       id: 2,
       name: 'WhatsApp',
       icon: 'MessageCircle',
-      url: 'https://wa.me/919876543210',
+      url: 'https://wa.me/919080100081',
       color: 'text-green-600 hover:text-green-700'
     },
     {
@@ -120,7 +120,7 @@ const ContactInfo = () => {
           <h4 className="font-heading font-semibold text-primary">Contact Hours</h4>
         </div>
         <p className="text-sm text-text-secondary">
-          Monday - Sunday: 8:00 AM - 8:00 PM\n
+          Monday - Sunday: 09:30 AM - 6:30 PM\n
           Emergency Contact: Available 24/7
         </p>
         <p className="text-xs text-text-muted mt-2">

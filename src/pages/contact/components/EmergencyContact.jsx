@@ -7,7 +7,7 @@ const EmergencyContact = () => {
     {
       id: 1,
       title: 'Resort Emergency',
-      number: '+91 98765 43210',
+      number: '+91 90801 00081',
       description: 'Available 24/7 for guest emergencies',
       icon: 'Phone',
       priority: 'high'
@@ -23,7 +23,7 @@ const EmergencyContact = () => {
     {
       id: 3,
       title: 'Forest Department',
-      number: '+91 80 2334 1993',
+      number: '+91 85476 03199',
       description: 'Wildlife emergencies & forest safety',
       icon: 'Trees',
       priority: 'medium'

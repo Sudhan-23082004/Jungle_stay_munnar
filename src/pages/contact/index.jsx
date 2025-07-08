@@ -85,7 +85,7 @@ const Contact = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919080100081"
                   className="flex items-center justify-center space-x-3 p-4 bg-background rounded-lg hover:bg-surface transition-organic-fast shadow-organic-subtle hover:shadow-organic-medium"
                 >
                   <Icon name="Phone" size={20} className="text-primary" />
@@ -93,7 +93,7 @@ const Contact = () => {
                 </a>
                 
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919080100081"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-3 p-4 bg-background rounded-lg hover:bg-surface transition-organic-fast shadow-organic-subtle hover:shadow-organic-medium"
@@ -103,7 +103,7 @@ const Contact = () => {
                 </a>
                 
                 <a
-                  href="mailto:info@junglestay.com"
+                  href="mailto:mashwin789@gmail.com"
                   className="flex items-center justify-center space-x-3 p-4 bg-background rounded-lg hover:bg-surface transition-organic-fast shadow-organic-subtle hover:shadow-organic-medium"
                 >
                   <Icon name="Mail" size={20} className="text-accent" />
@@ -123,14 +123,14 @@ const Contact = () => {
                   <Icon name="Shield" size={16} className="text-primary-foreground" />
                 </div>
                 <h3 className="text-lg font-heading font-semibold">
-                  Junglestay Tent Cottage
+                  Jungle Stay Tent & Cottage
                 </h3>
               </div>
               <p className="text-primary-foreground/80 text-sm mb-4">
-                Your gateway to authentic eco-tourism experiences in Bandipur National Park
+                Your gateway to authentic eco-tourism experiences in the heart of Munnar’s lush hills
               </p>
               <p className="text-primary-foreground/60 text-xs">
-                © {new Date().getFullYear()} Junglestay Tent Cottage. All rights reserved.
+                © {new Date().getFullYear()} Jungle Stay Tent & Cottage. All rights reserved.
               </p>
             </div>
           </div>
