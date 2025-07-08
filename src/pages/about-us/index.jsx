@@ -15,7 +15,7 @@ const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - Junglestay Tent Cottage | Eco-Tourism Excellence</title>
+        <title>About Us - Jungle Stay Tent Cottage | Eco-Tourism Excellence</title>
         <meta name="description" content="Discover Junglestay's story, mission, and commitment to sustainable eco-tourism. Meet our expert team and learn about our award-winning environmental practices." />
         <meta name="keywords" content="eco-tourism, sustainable travel, nature accommodation, jungle stay, environmental conservation, responsible tourism" />
         <meta property="og:title" content="About Junglestay - Sustainable Eco-Tourism Leaders" />
@@ -64,9 +64,6 @@ const AboutUs = () => {
           {/* Mission & Vision Section */}
           <MissionVision />
 
-          {/* Team Section */}
-          <TeamSection />
-
           {/* Eco Commitment Section */}
           <EcoCommitment />
 
@@ -78,18 +75,16 @@ const AboutUs = () => {
         <footer className="bg-primary text-primary-foreground py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-primary-foreground rounded-lg flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" className="w-6 h-6 text-primary" fill="currentColor">
-                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
-                    <path d="M8 11l2 2 4-4" stroke="currentColor" strokeWidth="2" fill="none"/>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-heading font-bold">Junglestay Tent Cottage</h3>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-6">
+                <img
+                  src="/assets/images/Logo/ASRA.jpg"
+                  alt="ASRA GROUPS"
+                  className="w-16 h-16 lg:w-16 lg:h-16 object-contain"
+                />
+                <p className="text-primary-100 text-center sm:text-left text-sm lg:text-base">
+                  Creating sustainable memories in nature's embrace since 2015
+                </p>
               </div>
-              <p className="text-primary-100 mb-6 max-w-2xl mx-auto">
-                Creating sustainable memories in nature's embrace since 2019
-              </p>
               <div className="flex justify-center space-x-6 text-primary-100">
                 <a href="#" className="hover:text-primary-foreground transition-organic-fast">Privacy Policy</a>
                 <a href="#" className="hover:text-primary-foreground transition-organic-fast">Terms of Service</a>

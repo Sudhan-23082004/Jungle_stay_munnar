@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
+import { Link } from 'react-router-dom';
 
 const LocationMap = () => {
   const [isMapLoaded, setIsMapLoaded] = useState(false);
@@ -8,15 +9,15 @@ const LocationMap = () => {
   const locationDetails = {
     address: "Jungle Stay Tent & Cottage, Gundumalai Road, Suryanelli, Munnar, Kerala 685618",
     nearbyAttractions: [
-      { name: "Dandeli Wildlife Sanctuary", distance: "2 km", icon: "TreePine" },
-      { name: "Kali River", distance: "1.5 km", icon: "Waves" },
-      { name: "Syntheri Rocks", distance: "8 km", icon: "Mountain" },
-      { name: "Kavala Caves", distance: "12 km", icon: "MapPin" }
+      { name: "Kolukkumalai Sunrise Point", distance: "0.5 km Boarding Point", icon: "TreePine" },
+      { name: "Anayirangal Dam, Munnar", distance: "5 km", icon: "Waves" },
+      { name: "Periyakanal Waterfalls", distance: "5 km", icon: "Mountain" },
+      { name: "Cap Road View Point", distance: "6 km", icon: "MapPin" }
     ],
     transportation: [
       { mode: "By Air", details: "Cochin International Airport (COK) - 121 km", icon: "Plane" },
-      { mode: "By Train", details: "Theni Railway station - 56 km", icon: "Train" },
-      { mode: "By Road", details: "Well connected via NH-63", icon: "Car" }
+      { mode: "By Train", details: "Bodinayakanur Railway station - 43 km", icon: "Train" },
+      { mode: "By Road", details: "Cochin - Dhanushkodi NH - 49", icon: "Car" }
     ]
   };
 
@@ -38,7 +39,7 @@ const LocationMap = () => {
             Find Us in Nature's Heart
           </h2>
           <p className="text-lg sm:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
-            Located in the pristine wilderness of Dandeli, surrounded by lush forests and flowing rivers
+            Located amidst the serene hills of Munnar, surrounded by lush tea gardens, misty forests, and tranquil streams.
           </p>
         </div>
 
@@ -146,17 +147,18 @@ const LocationMap = () => {
               <div className="space-y-4 mb-6">
                 <div className="flex items-center space-x-3">
                   <Icon name="Phone" size={18} className="text-primary" />
-                  <span className="text-text-primary">+91 98765 43210</span>
+                  <span className="text-text-primary">+91 90801 00081</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Icon name="Mail" size={18} className="text-primary" />
-                  <span className="text-text-primary">info@junglestay.com</span>
+                  <span className="text-text-primary">mashwin789@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Icon name="Clock" size={18} className="text-primary" />
                   <span className="text-text-primary">24/7 Support Available</span>
                 </div>
               </div>
+              <Link to="/contact" className="w-full sm:w-auto">
               <Button
                 variant="outline"
                 size="md"
@@ -166,6 +168,7 @@ const LocationMap = () => {
               >
                 Contact Our Travel Experts
               </Button>
+              </Link>
             </div>
           </div>
         </div>

@@ -70,7 +70,7 @@ const FloatingBookingButton = () => {
 
             {/* WhatsApp Button */}
             <a
-              href="https://wa.me/919876543210?text=Hi! I'm interested in booking a stay at Junglestay Tent Cottage."
+              href="https://wa.me/919080100081?text=Hi! I'm interested in booking a stay at Junglestay Tent Cottage."
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-organic-medium hover:shadow-organic-pronounced hover:scale-110 transition-all duration-200"
@@ -81,7 +81,7 @@ const FloatingBookingButton = () => {
 
             {/* Email Button */}
             <a
-              href="mailto:info@junglestay.com?subject=Booking Inquiry&body=Hi! I'm interested in booking a stay at Junglestay Tent Cottage."
+              href="mailto:mashwin789@gmail.com?subject=Booking Inquiry&body=Hi! I'm interested in booking a stay at Junglestay Tent Cottage."
               className="w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white shadow-organic-medium hover:shadow-organic-pronounced hover:scale-110 transition-all duration-200"
               title="Email"
             >

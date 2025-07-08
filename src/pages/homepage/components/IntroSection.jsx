@@ -41,7 +41,7 @@ const IntroSection = () => {
             <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
               <Icon name="Award" size={24} className="text-accent" />
             </div>
-            <div className="text-2xl lg:text-3xl font-bold text-primary mb-2">5</div>
+            <div className="text-2xl lg:text-3xl font-bold text-primary mb-2">10</div>
             <div className="text-sm text-text-secondary">Years Experience</div>
           </div>
 

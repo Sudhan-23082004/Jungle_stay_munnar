@@ -4,13 +4,13 @@ import Icon from '../../../components/AppIcon';
 
 const FounderStory = () => {
   const founderData = {
-    name: "Rajesh Kumar",
+    name: "Ashwin Ananda Prabhu",
     title: "Founder & Nature Enthusiast",
-    image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "assets/images/About/Main.jpg",
     story: `My journey into eco-tourism began during a transformative trek through the Western Ghats in 2018. Witnessing the pristine beauty of untouched forests and the warmth of local communities, I realized the urgent need to create sustainable tourism experiences that benefit both nature and people.\n\nAfter years in corporate life, I left my job to pursue this dream. Junglestay was born from a simple belief: that travel should leave places better than we found them. Every tent pitched, every cottage built, and every guest welcomed is part of our commitment to responsible tourism.\n\nToday, we're not just providing accommodation; we're creating a movement where travelers become guardians of the wilderness they explore.`,
     highlights: [
       { icon: "TreePine", text: "15+ Years in Nature Conservation" },
-      { icon: "Award", text: "Eco-Tourism Excellence Award 2023" },
+      { icon: "Award", text: "Director of REDSARD Trust (Rehabilitation Education for Disabled Children Social Awarness and Rural Development)" },
       { icon: "Users", text: "5000+ Happy Guests" },
       { icon: "Leaf", text: "Carbon Neutral Operations" }
     ]

@@ -68,48 +68,47 @@ const FeatureHighlights = () => {
           </p>
         </div>
 
+        {/* Equal-height Feature Cards */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
-          {features.map((feature, index) => {
+          {features.map((feature) => {
             const colors = getColorClasses(feature.color);
-            
+
             return (
-              <div
-                key={feature.id}
-                className={`group bg-background rounded-2xl shadow-organic-subtle hover:shadow-organic-pronounced transition-all duration-500 overflow-hidden transform hover:-translate-y-2 ${
-                  index === 1 ? 'lg:mt-8' : ''
-                }`}
-              >
-                {/* Image */}
-                <div className="relative h-48 sm:h-56 overflow-hidden">
-                  <Image
-                    src={feature.image}
-                    alt={feature.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                  
-                  {/* Icon Overlay */}
-                  <div className={`absolute top-4 right-4 w-12 h-12 ${colors.bg} ${colors.border} border rounded-full flex items-center justify-center backdrop-blur-sm`}>
-                    <Icon name={feature.icon} size={24} className={colors.text} />
-                  </div>
-                </div>
+              <div key={feature.id} className="h-full">
+                <div className="group bg-background rounded-2xl transition-all duration-500 ease-in-out shadow-organic-subtle hover:shadow-organic-pronounced overflow-hidden transform hover:-translate-y-2 flex flex-col h-full">
+                  {/* Image */}
+                  <div className="relative h-56 overflow-hidden">
+                    <Image
+                      src={feature.image}
+                      alt={feature.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
-                {/* Content */}
-                <div className="p-6 lg:p-8">
-                  <div className="flex items-center mb-4">
-                    <div className={`w-10 h-10 ${colors.bg} rounded-lg flex items-center justify-center mr-4`}>
-                      <Icon name={feature.icon} size={20} className={colors.text} />
+                    {/* Icon Overlay */}
+                    <div
+                      className={`absolute top-4 right-4 w-12 h-12 ${colors.bg} ${colors.border} border rounded-full flex items-center justify-center backdrop-blur-sm`}
+                    >
+                      <Icon name={feature.icon} size={24} className={colors.text} />
                     </div>
-                    <h3 className="text-xl lg:text-2xl font-heading font-bold text-primary">
-                      {feature.title}
-                    </h3>
                   </div>
-                  
-                  <p className="text-text-secondary leading-relaxed mb-6">
-                    {feature.description}
-                  </p>
 
-
+                  {/* Content */}
+                  <div className="flex flex-col justify-between flex-grow p-6 lg:p-8">
+                    <div>
+                      <div className="flex items-center mb-4">
+                        <div className={`w-10 h-10 ${colors.bg} rounded-lg flex items-center justify-center mr-4`}>
+                          <Icon name={feature.icon} size={20} className={colors.text} />
+                        </div>
+                        <h3 className="text-xl lg:text-2xl font-heading font-bold text-primary">
+                          {feature.title}
+                        </h3>
+                      </div>
+                      <p className="text-text-secondary leading-relaxed">
+                        {feature.description}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             );
