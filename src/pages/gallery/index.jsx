@@ -201,18 +201,12 @@ const galleryImages = [
     location: "Fire Pit",
     description: "Cozy campfire nights with friends and family"
   }
-
   ];
 
   // Categories with icons and counts
   const categories = useMemo(() => {
     const categoryData = [
-      { id: 'all', name: 'All Photos', icon: 'Grid3X3', count: 0 },
-      { id: 'Tents', name: 'Tents', icon: 'Home', count: 0 },
-      { id: 'Cottages', name: 'Cottages', icon: 'Building', count: 0 },
-      { id: 'Activities', name: 'Activities', icon: 'Activity', count: 0 },
-      { id: 'Food', name: 'Food', icon: 'ChefHat', count: 0 },
-      { id: 'Night Views', name: 'Night Views', icon: 'Moon', count: 0 }
+      { id: 'all', name: 'All Photos', icon: 'Grid3X3', count: 0 }
     ];
 
     // Calculate counts
