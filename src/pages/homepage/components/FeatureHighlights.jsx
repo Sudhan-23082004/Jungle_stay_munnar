@@ -11,7 +11,7 @@ const FeatureHighlights = () => {
       icon: "Leaf",
       title: "Eco-Friendly Living",
       description: "Experience sustainable tourism with our solar-powered accommodations, rainwater harvesting systems, and zero-waste practices that protect the natural ecosystem.",
-      image: "https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      image: "../../../public/assets/images/Home Page/Eco-Friendly Living.jpg",
       color: "success"
     },
     {
@@ -27,7 +27,7 @@ const FeatureHighlights = () => {
       icon: "Home",
       title: "Premium Accommodations",
       description: "Choose from luxury safari tents with modern amenities or rustic cottages that blend comfort with authentic wilderness living experiences.",
-      image: "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      image: "../../../public/assets/images/Home Page/Premium Accommodations.jpg",
       color: "primary"
     }
   ];
@@ -109,15 +109,7 @@ const FeatureHighlights = () => {
                     {feature.description}
                   </p>
 
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    iconName="ArrowRight"
-                    iconPosition="right"
-                    className={`${colors.text} ${colors.hover} group-hover:translate-x-1 transition-transform`}
-                  >
-                    Learn More
-                  </Button>
+
                 </div>
               </div>
             );

@@ -11,18 +11,18 @@ const IntroSection = () => {
               <Icon name="TreePine" size={32} className="text-primary-foreground" />
             </div>
           </div>
-          
+
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
-            Welcome to Junglestay
+            Welcome to Jungle Stay, Munnar
           </h2>
-          
+
           <div className="max-w-4xl mx-auto">
             <p className="text-lg sm:text-xl text-text-secondary leading-relaxed mb-6">
-              Nestled in the heart of pristine wilderness, Junglestay Tent Cottage offers an unparalleled eco-tourism experience that connects you with nature's raw beauty. Our commitment to sustainable tourism ensures that every moment of your stay contributes to preserving the natural habitat while providing you with memories that last a lifetime.
+              Discover the serene beauty of Munnar, Kerala – where misty hills meet lush green tea plantations. Junglestay Tent Cottage offers a unique eco-tourism escape that brings you close to the enchanting landscapes and rich biodiversity of the Western Ghats.
             </p>
-            
+
             <p className="text-base sm:text-lg text-text-muted leading-relaxed">
-              From luxury tents that blend comfort with adventure to cozy cottages that offer a home away from home, we provide authentic accommodations that respect the environment and celebrate the wilderness. Join us in our mission to promote responsible tourism while experiencing the thrill of living amidst nature's grandeur.
+              From luxury tents under starry skies to charming cottages tucked in the hills, our accommodations blend sustainability with comfort. Experience nature trails, spice gardens, and peaceful getaways while supporting our mission for responsible and eco-friendly tourism in one of India’s most breathtaking destinations.
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const IntroSection = () => {
             <div className="text-2xl lg:text-3xl font-bold text-primary mb-2">500+</div>
             <div className="text-sm text-text-secondary">Happy Guests</div>
           </div>
-          
+
           <div className="text-center p-6 bg-surface rounded-xl shadow-organic-subtle hover:shadow-organic-medium transition-organic">
             <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
               <Icon name="Award" size={24} className="text-accent" />
@@ -44,7 +44,7 @@ const IntroSection = () => {
             <div className="text-2xl lg:text-3xl font-bold text-primary mb-2">5</div>
             <div className="text-sm text-text-secondary">Years Experience</div>
           </div>
-          
+
           <div className="text-center p-6 bg-surface rounded-xl shadow-organic-subtle hover:shadow-organic-medium transition-organic">
             <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
               <Icon name="Home" size={24} className="text-primary" />
@@ -52,7 +52,7 @@ const IntroSection = () => {
             <div className="text-2xl lg:text-3xl font-bold text-primary mb-2">25+</div>
             <div className="text-sm text-text-secondary">Accommodations</div>
           </div>
-          
+
           <div className="text-center p-6 bg-surface rounded-xl shadow-organic-subtle hover:shadow-organic-medium transition-organic">
             <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
               <Icon name="Leaf" size={24} className="text-secondary" />

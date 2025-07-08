@@ -5,13 +5,8 @@ import Button from '../../../components/ui/Button';
 const LocationMap = () => {
   const [isMapLoaded, setIsMapLoaded] = useState(false);
 
-  // Mock coordinates for Junglestay location
-  const latitude = 15.3173;
-  const longitude = 75.7139;
-  const mapSrc = `https://www.google.com/maps?q=${latitude},${longitude}&z=14&output=embed`;
-
   const locationDetails = {
-    address: "Junglestay Tent Cottage, Forest Reserve Area, Dandeli, Karnataka 581325",
+    address: "Jungle Stay Tent & Cottage, Gundumalai Road, Suryanelli, Munnar, Kerala 685618",
     nearbyAttractions: [
       { name: "Dandeli Wildlife Sanctuary", distance: "2 km", icon: "TreePine" },
       { name: "Kali River", distance: "1.5 km", icon: "Waves" },
@@ -19,8 +14,8 @@ const LocationMap = () => {
       { name: "Kavala Caves", distance: "12 km", icon: "MapPin" }
     ],
     transportation: [
-      { mode: "By Air", details: "Hubli Airport - 75 km", icon: "Plane" },
-      { mode: "By Train", details: "Dharwad Railway Station - 52 km", icon: "Train" },
+      { mode: "By Air", details: "Cochin International Airport (COK) - 121 km", icon: "Plane" },
+      { mode: "By Train", details: "Theni Railway station - 56 km", icon: "Train" },
       { mode: "By Road", details: "Well connected via NH-63", icon: "Car" }
     ]
   };
@@ -30,7 +25,8 @@ const LocationMap = () => {
   };
 
   const handleDirectionsClick = () => {
-    const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
+    // Use fixed coordinates for direction
+    const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=10.054205260197765,77.1893576590844`;
     window.open(directionsUrl, '_blank');
   };
 
@@ -61,9 +57,9 @@ const LocationMap = () => {
                     </div>
                   </div>
                 )}
-                
+
                 <iframe
-                  src={mapSrc}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444.39128059075364!2d77.1893576590844!3d10.054205260197765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b079f00579508c1%3A0x358c035bc03f1f4a!2sJungle%20Stay%20Tent%20%26%20Cottage!5e1!3m2!1sen!2sin!4v1751953277288!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -75,7 +71,7 @@ const LocationMap = () => {
                   className="rounded-2xl"
                 />
               </div>
-              
+
               <div className="p-6">
                 <div className="flex items-start space-x-3 mb-4">
                   <Icon name="MapPin" size={20} className="text-primary mt-1 flex-shrink-0" />
@@ -83,7 +79,7 @@ const LocationMap = () => {
                     {locationDetails.address}
                   </p>
                 </div>
-                
+
                 <Button
                   variant="primary"
                   size="md"
@@ -98,15 +94,14 @@ const LocationMap = () => {
             </div>
           </div>
 
-          {/* Location Information */}
+          {/* Location Info */}
           <div className="order-1 lg:order-2 space-y-8">
-            {/* Nearby Attractions */}
+            {/* Attractions */}
             <div className="bg-background rounded-2xl p-6 lg:p-8 shadow-organic-subtle">
               <h3 className="text-xl lg:text-2xl font-heading font-bold text-primary mb-6 flex items-center">
                 <Icon name="MapPin" size={24} className="mr-3" />
                 Nearby Attractions
               </h3>
-              
               <div className="space-y-4">
                 {locationDetails.nearbyAttractions.map((attraction, index) => (
                   <div key={index} className="flex items-center space-x-4 p-3 rounded-lg hover:bg-surface transition-organic">
@@ -128,7 +123,6 @@ const LocationMap = () => {
                 <Icon name="Route" size={24} className="mr-3" />
                 How to Reach
               </h3>
-              
               <div className="space-y-4">
                 {locationDetails.transportation.map((transport, index) => (
                   <div key={index} className="flex items-center space-x-4 p-3 rounded-lg hover:bg-surface transition-organic">
@@ -144,12 +138,11 @@ const LocationMap = () => {
               </div>
             </div>
 
-            {/* Contact Information */}
+            {/* Contact Info */}
             <div className="bg-primary/5 rounded-2xl p-6 lg:p-8 border border-primary/10">
               <h3 className="text-xl lg:text-2xl font-heading font-bold text-primary mb-6">
                 Need Help Planning Your Visit?
               </h3>
-              
               <div className="space-y-4 mb-6">
                 <div className="flex items-center space-x-3">
                   <Icon name="Phone" size={18} className="text-primary" />
@@ -164,7 +157,6 @@ const LocationMap = () => {
                   <span className="text-text-primary">24/7 Support Available</span>
                 </div>
               </div>
-              
               <Button
                 variant="outline"
                 size="md"

@@ -56,7 +56,7 @@ const Header = () => {
             to="/homepage" 
             className="flex items-center space-x-3 group transition-organic-fast hover:opacity-80"
           >
-            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-primary rounded-lg flex items-center justify-center shadow-organic-subtle">
+            {/* <div className="w-10 h-10 lg:w-12 lg:h-12 bg-primary rounded-lg flex items-center justify-center shadow-organic-subtle">
               <svg 
                 viewBox="0 0 24 24" 
                 className="w-6 h-6 lg:w-7 lg:h-7 text-primary-foreground"
@@ -65,15 +65,23 @@ const Header = () => {
                 <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
                 <path d="M8 11l2 2 4-4" stroke="currentColor" strokeWidth="2" fill="none"/>
               </svg>
+            </div> */}
+            <div className="hidden sm:block">
+              <img
+                src="/assets/images/Logo/logo 1 - Copy.png" // Update path based on your project structure
+                alt="Junglestay Munnar Logo"
+                className="w-10 h-10 lg:w-16 lg:h-16 object-contain"
+              />
             </div>
             <div className="hidden sm:block">
               <h1 className="text-lg lg:text-xl font-heading font-bold text-primary leading-tight">
-                Junglestay
+                Jungle Stay
               </h1>
               <p className="text-xs lg:text-sm font-caption text-text-secondary -mt-1">
-                Tent Cottage
+                Tent & Cottage
               </p>
             </div>
+
           </Link>
 
           {/* Desktop Navigation */}
