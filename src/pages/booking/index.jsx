@@ -160,11 +160,11 @@ const BookingPage = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" size={16} className="text-success mt-0.5 flex-shrink-0" />
-                      <span>50% advance payment required to confirm booking</span>
+                      <span>25% advance payment required to confirm booking</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" size={16} className="text-success mt-0.5 flex-shrink-0" />
-                      <span>Check-in: 2:00 PM | Check-out: 11:00 AM</span>
+                      <span>Check-in: 12:00 PM | Check-out: 11:00 AM</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" size={16} className="text-success mt-0.5 flex-shrink-0" />
@@ -185,15 +185,15 @@ const BookingPage = () => {
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <Icon name="Phone" size={16} className="text-secondary" />
-                      <span className="text-sm text-text-primary">+91 98765 43210</span>
+                      <span className="text-sm text-text-primary">+91 90801 00081</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Icon name="Mail" size={16} className="text-secondary" />
-                      <span className="text-sm text-text-primary">info@junglestay.com</span>
+                      <span className="text-sm text-text-primary">mashwin789@gmail.com</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Icon name="MessageCircle" size={16} className="text-secondary" />
-                      <span className="text-sm text-text-primary">WhatsApp: +91 98765 43210</span>
+                      <span className="text-sm text-text-primary">WhatsApp: +91 90801 00081</span>
                     </div>
                   </div>
                 </div>
@@ -210,13 +210,13 @@ const BookingPage = () => {
                 <div className="w-8 h-8 bg-primary-foreground/20 rounded-lg flex items-center justify-center">
                   <Icon name="Shield" size={16} className="text-primary-foreground" />
                 </div>
-                <span className="text-lg font-heading font-semibold">Junglestay Tent Cottage</span>
+                <span className="text-lg font-heading font-semibold">Jungle Stay Tent & Cottage</span>
               </div>
               <p className="text-primary-foreground/80 text-sm mb-4">
                 Your trusted partner for eco-friendly nature accommodations
               </p>
               <p className="text-primary-foreground/60 text-xs">
-                © {new Date().getFullYear()} Junglestay Tent Cottage. All rights reserved.
+                © {new Date().getFullYear()} Jungle Stay Tent & Cottage. All rights reserved.
               </p>
             </div>
           </div>

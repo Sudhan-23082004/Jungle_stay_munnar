@@ -24,11 +24,13 @@ const BookingForm = ({ onSubmitSuccess }) => {
   const [errors, setErrors] = useState({});
 
   const accommodationTypes = [
-    { value: 'luxury-tent', label: 'Luxury Tent - ₹3,500/night' },
-    { value: 'family-tent', label: 'Family Tent - ₹4,500/night' },
-    { value: 'eco-cottage', label: 'Eco Cottage - ₹5,500/night' },
-    { value: 'premium-cottage', label: 'Premium Cottage - ₹7,500/night' },
-    { value: 'group-package', label: 'Group Package - ₹15,000/night' }
+    { value: 'tent-stay', label: 'Tent Stay' },
+    { value: 'honeymoon-cottage', label: 'Honeymoon Cottage (Bamboo Cottage)' },
+    { value: 'family-cottage', label: 'Family Cottage' },
+    { value: 'luxury-tent', label: 'Luxury Tenty' },
+    { value: 'a-fram-Cottage', label: 'A - Frame Cottage' },
+    { value: 'jeebsafari', label: 'Kolukumalai Jeep Safari' },
+    { value: 'travel-package', label: 'Travel Package (Car & Jeep & Tempo Travaller & Mini Bus & Bus)' }
   ];
 
   const guestOptions = Array.from({ length: 12 }, (_, i) => i + 1);

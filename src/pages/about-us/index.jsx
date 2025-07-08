@@ -35,7 +35,7 @@ const AboutUs = () => {
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <div className="max-w-4xl mx-auto">
                 <h1 className="text-4xl lg:text-6xl font-heading font-bold text-primary mb-6 leading-tight">
-                  About Junglestay
+                  About Jungle Stay
                 </h1>
                 <p className="text-xl lg:text-2xl text-text-secondary leading-relaxed mb-8">
                   Pioneering sustainable eco-tourism experiences that connect travelers with nature while preserving our planet for future generations
@@ -43,7 +43,7 @@ const AboutUs = () => {
                 <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-text-secondary">
                   <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 bg-success rounded-full"></div>
-                    <span className="font-medium">Est. 2019</span>
+                    <span className="font-medium">Est. 2015</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 bg-primary rounded-full"></div>

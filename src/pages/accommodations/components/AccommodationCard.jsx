@@ -117,7 +117,7 @@ const AccommodationCard = ({ accommodation }) => {
             <div className="text-2xl font-heading font-bold text-primary">
               ₹{accommodation.pricePerNight.toLocaleString('en-IN')}
             </div>
-            <div className="text-sm text-text-secondary">per night</div>
+            <div className="text-sm text-text-secondary">per day</div>
           </div>
         </div>
 
