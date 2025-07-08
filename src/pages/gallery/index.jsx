@@ -139,7 +139,7 @@ const Gallery = () => {
     },
     {
       id: 13,
-      src: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
+      src: "assets/images/Videos/VID_20230529212135.mp4",
       title: "Adventure Activities",
       category: "Activities",
       type: "video",
