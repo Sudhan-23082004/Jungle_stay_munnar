@@ -16,157 +16,192 @@ const Gallery = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   // Mock gallery data
-  const galleryImages = [
-    {
-      id: 1,
-      src: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&h=600&fit=crop",
-      title: "Luxury Safari Tent",
-      category: "Tents",
-      type: "image",
-      views: 1250,
-      location: "Riverside Camp",
-      description: "Spacious safari tent with modern amenities and stunning river views"
-    },
-    {
-      id: 2,
-      src: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
-      title: "Cozy Forest Cottage",
-      category: "Cottages",
-      type: "image",
-      views: 980,
-      location: "Forest Edge",
-      description: "Traditional cottage nestled in the heart of the forest"
-    },
-    {
-      id: 3,
-      src: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop",
-      title: "Campfire Stories",
-      category: "Activities",
-      type: "image",
-      views: 750,
-      location: "Main Camp",
-      description: "Evening campfire sessions with local storytelling"
-    },
-    {
-      id: 4,
-      src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=600&fit=crop",
-      title: "Farm Fresh Breakfast",
-      category: "Food",
-      type: "image",
-      views: 650,
-      location: "Dining Area",
-      description: "Organic breakfast prepared with locally sourced ingredients"
-    },
-    {
-      id: 5,
-      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-      title: "Starlit Night Sky",
-      category: "Night Views",
-      type: "image",
-      views: 1100,
-      location: "Open Field",
-      description: "Breathtaking night sky perfect for stargazing"
-    },
-    {
-      id: 6,
-      src: "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?w=800&h=600&fit=crop",
-      title: "Glamping Experience",
-      category: "Tents",
-      type: "image",
-      views: 890,
-      location: "Premium Section",
-      description: "Luxury glamping tent with all modern conveniences"
-    },
-    {
-      id: 7,
-      src: "https://images.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg?w=800&h=600&fit=crop",
-      title: "Mountain Cottage",
-      category: "Cottages",
-      type: "image",
-      views: 720,
-      location: "Hilltop",
-      description: "Scenic cottage with panoramic mountain views"
-    },
-    {
-      id: 8,
-      src: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800&h=600&fit=crop",
-      title: "Nature Walk",
-      category: "Activities",
-      type: "image",
-      views: 580,
-      location: "Forest Trail",
-      description: "Guided nature walks through pristine forest paths"
-    },
-    {
-      id: 9,
-      src: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?w=800&h=600&fit=crop",
-      title: "Traditional Cuisine",
-      category: "Food",
-      type: "image",
-      views: 420,
-      location: "Kitchen",
-      description: "Authentic local dishes prepared by expert chefs"
-    },
-    {
-      id: 10,
-      src: "https://images.pixabay.com/photo/2017/08/06/12/06/people-2591874_1280.jpg?w=800&h=600&fit=crop",
-      title: "Moonlit Landscape",
-      category: "Night Views",
-      type: "image",
-      views: 950,
-      location: "Valley View",
-      description: "Serene moonlit landscape perfect for night photography"
-    },
-    {
-      id: 11,
-      src: "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=800&h=600&fit=crop",
-      title: "Family Tent Setup",
-      category: "Tents",
-      type: "image",
-      views: 680,
-      location: "Family Zone",
-      description: "Spacious family tents designed for comfort and safety"
-    },
-    {
-      id: 12,
-      src: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?w=800&h=600&fit=crop",
-      title: "Riverside Cottage",
-      category: "Cottages",
-      type: "image",
-      views: 830,
-      location: "Riverbank",
-      description: "Charming cottage with direct access to the river"
-    },
-    {
-      id: 13,
-      src: "assets/images/Videos/VID_20230529212135.mp4",
-      title: "Adventure Activities",
-      category: "Activities",
-      type: "video",
-      views: 1200,
-      location: "Adventure Zone",
-      description: "Exciting outdoor activities for thrill seekers"
-    },
-    {
-      id: 14,
-      src: "https://images.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg?w=800&h=600&fit=crop",
-      title: "Gourmet Dinner",
-      category: "Food",
-      type: "image",
-      views: 540,
-      location: "Restaurant",
-      description: "Fine dining experience under the stars"
-    },
-    {
-      id: 15,
-      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-      title: "Campfire Night",
-      category: "Night Views",
-      type: "image",
-      views: 780,
-      location: "Fire Pit",
-      description: "Cozy campfire nights with friends and family"
-    }
+
+const galleryImages = [
+  {
+    id: 1,
+    src: "assets/images/6.JPG",
+    title: "Luxury Safari Tent",
+    category: "",
+    type: "image",
+    views: 1250,
+    location: "Riverside Camp",
+    description: "Spacious safari tent with modern amenities and stunning river views"
+  },
+  {
+    id: 2,
+    src: "assets/images/17.jpg",
+    title: "Cozy Forest Cottage",
+    category: "Tents",
+    type: "image",
+    views: 980,
+    location: "Forest Edge",
+    description: "Traditional cottage nestled in the heart of the forest"
+  },
+  {
+    id: 3,
+    src: "assets/images/18.jpg",
+    title: "Campfire Stories",
+    category: "Activities",
+    type: "image",
+    views: 750,
+    location: "Main Camp",
+    description: "Evening campfire sessions with local storytelling"
+  },
+  {
+    id: 4,
+    src: "assets/images/19.jpg",
+    title: "Farm Fresh Breakfast",
+    category: "Food",
+    type: "image",
+    views: 650,
+    location: "Dining Area",
+    description: "Organic breakfast prepared with locally sourced ingredients"
+  },
+  {
+    id: 5,
+    src: "assets/images/20.jpg",
+    title: "Starlit Night Sky",
+    category: "Night Views",
+    type: "image",
+    views: 1100,
+    location: "Open Field",
+    description: "Breathtaking night sky perfect for stargazing"
+  },
+  {
+    id: 6,
+    src: "assets/images/7.JPG",
+    title: "Glamping Experience",
+    category: "",
+    type: "image",
+    views: 890,
+    location: "Premium Section",
+    description: "Luxury glamping tent with all modern conveniences"
+  },
+  {
+    id: 7,
+    src: "assets/images/8.JPG",
+    title: "Mountain Cottage",
+    category: "Cottages",
+    type: "image",
+    views: 720,
+    location: "Hilltop",
+    description: "Scenic cottage with panoramic mountain views"
+  },
+  {
+    id: 8,
+    src: "assets/images/13.jpg",
+    title: "Nature Walk",
+    category: "Activities",
+    type: "image",
+    views: 580,
+    location: "Forest Trail",
+    description: "Guided nature walks through pristine forest paths"
+  },
+  {
+    id: 9,
+    src: "assets/images/14.jpg",
+    title: "Traditional Cuisine",
+    category: "Food",
+    type: "image",
+    views: 420,
+    location: "Kitchen",
+    description: "Authentic local dishes prepared by expert chefs"
+  },
+  {
+    id: 10,
+    src: "assets/images/15.jpg",
+    title: "Moonlit Landscape",
+    category: "Night Views",
+    type: "image",
+    views: 950,
+    location: "Valley View",
+    description: "Serene moonlit landscape perfect for night photography"
+  },
+  {
+    id: 11,
+    src: "assets/images/16.jpg",
+    title: "Family Tent Setup",
+    category: "",
+    type: "image",
+    views: 680,
+    location: "Family Zone",
+    description: "Spacious family tents designed for comfort and safety"
+  },
+  {
+    id: 12,
+    src: "assets/images/21.jpg",
+    title: "Riverside Cottage",
+    category: "Cottages",
+    type: "image",
+    views: 830,
+    location: "Riverbank",
+    description: "Charming cottage with direct access to the river"
+  },
+  {
+    id: 13,
+    src: "assets/images/22.jpg",
+    title: "Adventure Activities",
+    category: "Activities",
+    type: "image",
+    views: 1200,
+    location: "Adventure Zone",
+    description: "Exciting outdoor activities for thrill seekers"
+  },
+  {
+    id: 14,
+    src: "assets/images/23.jpg",
+    title: "Gourmet Dinner",
+    category: "Food",
+    type: "image",
+    views: 540,
+    location: "Restaurant",
+    description: "Fine dining experience under the stars"
+  },
+  {
+    id: 16,
+    src: "assets/images/24.jpg",
+    title: "Campfire Night",
+    category: "Night Views",
+    type: "image",
+    views: 780,
+    location: "Fire Pit",
+    description: "Cozy campfire nights with friends and family"
+  },
+  ,
+  {
+    id: 17,
+    src: "assets/images/25.jpg",
+    title: "Campfire Night",
+    category: "Night Views",
+    type: "image",
+    views: 780,
+    location: "Fire Pit",
+    description: "Cozy campfire nights with friends and family"
+  },
+  ,
+  {
+    id: 18,
+    src: "assets/images/26.jpg",
+    title: "Campfire Night",
+    category: "Night Views",
+    type: "image",
+    views: 780,
+    location: "Fire Pit",
+    description: "Cozy campfire nights with friends and family"
+  },
+  ,
+  {
+    id: 19,
+    src: "assets/images/27.jpg",
+    title: "Campfire Night",
+    category: "Night Views",
+    type: "image",
+    views: 780,
+    location: "Fire Pit",
+    description: "Cozy campfire nights with friends and family"
+  }
+
   ];
 
   // Categories with icons and counts
