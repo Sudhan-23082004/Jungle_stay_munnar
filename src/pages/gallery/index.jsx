@@ -57,16 +57,16 @@ const galleryImages = [
     "location": "Seating Area",
     "description": "Glowing night setup with ambient lighting and chairs"
   },
-  // {
-  //   "id": 7,
-  //   "src": "assets/images/Others/7.jpg",
-  //   "title": "Inside View of Tent Bed Setup",
-  //   "category": "Tents",
-  //   "type": "image",
-  //   "views": 1320,
-  //   "location": "Interior Zone",
-  //   "description": "Warm and cozy tent interior with bedding and pillows"
-  // },
+  {
+    "id": 7,
+    "src": "assets/images/Others/7.jpg",
+    "title": "Inside View of Tent Bed Setup",
+    "category": "Tents",
+    "type": "image",
+    "views": 1320,
+    "location": "Interior Zone",
+    "description": "Warm and cozy tent interior with bedding and pillows"
+  },
   {
     id: 1,
     src: "assets/images/Others/1.jpg",
@@ -87,36 +87,36 @@ const galleryImages = [
     location: "",
     description: ""
   },
-  //   {
-  //   id: 4,
-  //   src: "assets/images/Others/4.jpg",
-  //   title: "",
-  //   category: "Activities",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
-  //   {
-  //   id: 8,
-  //   src: "assets/images/Others/8.jpg",
-  //   title: "",
-  //   category: "Cottages",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
-  // {
-  //   id: 9,
-  //   src: "assets/images/Others/9.jpg",
-  //   title: "",
-  //   category: "Cottages",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
+    {
+    id: 4,
+    src: "assets/images/Others/4.jpg",
+    title: "",
+    category: "Activities",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+    {
+    id: 8,
+    src: "assets/images/Others/8.jpg",
+    title: "",
+    category: "Cottages",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+  {
+    id: 9,
+    src: "assets/images/Others/9.jpg",
+    title: "",
+    category: "Cottages",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
   {
     id: 10,
     src: "assets/images/Others/10.jpg",
@@ -187,26 +187,26 @@ const galleryImages = [
     location: "",
     description: ""
   },
-  // {
-  //   id: 17,
-  //   src: "assets/images/Others/17.jpg",
-  //   title: "",
-  //   category: "Activities",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
-  // {
-  //   id: 18,
-  //   src: "assets/images/Others/18.jpg",
-  //   title: "",
-  //   category: "Activities",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
+  {
+    id: 17,
+    src: "assets/images/Others/17.jpg",
+    title: "",
+    category: "Activities",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+  {
+    id: 18,
+    src: "assets/images/Others/18.jpg",
+    title: "",
+    category: "Activities",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
     {
     id: 19,
     src: "assets/images/Others/19.jpg",
@@ -237,16 +237,16 @@ const galleryImages = [
     location: "",
     description: ""
   },
-  //   {
-  //   id: 22,
-  //   src: "assets/images/Others/22.jpg",
-  //   title: "",
-  //   category: "Activities",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
+    {
+    id: 22,
+    src: "assets/images/Others/22.jpg",
+    title: "",
+    category: "Activities",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
     {
     id: 23,
     src: "assets/images/Others/23.jpg",
@@ -257,26 +257,26 @@ const galleryImages = [
     location: "",
     description: ""
   },
-  // {
-  //   id: 24,
-  //   src: "assets/images/Others/24.jpg",
-  //   title: "",
-  //   category: "Activities",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
-  // {
-  //   id: 25,
-  //   src: "assets/images/Others/25.jpg",
-  //   title: "",
-  //   category: "Activities",
-  //   type: "image",
-  //   views: 1250,
-  //   location: "",
-  //   description: ""
-  // },
+  {
+    id: 24,
+    src: "assets/images/Others/24.jpg",
+    title: "",
+    category: "Activities",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+  {
+    id: 25,
+    src: "assets/images/Others/25.jpg",
+    title: "",
+    category: "Activities",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
   {
     id: 26,
     src: "assets/images/Others/26.jpg",
@@ -436,6 +436,36 @@ const galleryImages = [
   {
     id: 42,
     src: "assets/images/Others/42.jpg",
+    title: "",
+    category: "Cottages",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+    {
+    id: 43,
+    src: "assets/images/Others/43.jpg",
+    title: "",
+    category: "Cottages",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+    {
+    id: 44,
+    src: "assets/images/Others/44.jpg",
+    title: "",
+    category: "Cottages",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+    {
+    id: 45,
+    src: "assets/images/Others/45.jpg",
     title: "",
     category: "Cottages",
     type: "image",
