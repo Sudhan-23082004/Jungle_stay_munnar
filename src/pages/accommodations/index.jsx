@@ -207,13 +207,27 @@ const AccommodationsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Accommodations - Junglestay Tent Cottage | Eco-Tourism Stays</title>
-        <meta name="description" content="Discover eco-friendly accommodations including tents, cottages, and packages." />
-        <meta name="keywords" content="tent accommodation, eco cottage, jungle stay, adventure package, jeep safari" />
-        <meta property="og:title" content="Accommodations - Junglestay Tent Cottage" />
-        <meta property="og:description" content="Choose from tents, cottages, and group packages for your perfect retreat." />
+        {/* Primary Meta Tags */}
+        <title>Accommodations | Jungle Stay Munnar – Eco Tents & Cottages</title>
+        <meta name="title" content="Accommodations | Jungle Stay Munnar – Eco Tents & Cottages" />
+        <meta name="description" content="Explore our eco-friendly accommodations in Munnar including luxury tents, romantic cottages, and group packages. Book your perfect nature retreat today!" />
+        <meta name="keywords" content="munnar, kerala, munnar kerala, best tourist area munnar, best tour munnar, best service munnar, best travel advisor munnar, junglestay accommodations, Munnar tent stay, jungle cottages, eco stay Munnar, bamboo honeymoon cottage, forest tent Kerala, Kolukkumalai tent stay, group stay Munnar, family cottage Kerala" />
+        <meta name="author" content="Jungle Stay Munnar" />
+        <link rel="canonical" href="https://jungle-stay-munnar.pages.dev/accommodations" />
+
+        {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/accommodations" />
+        <meta property="og:url" content="https://jungle-stay-munnar.pages.dev/accommodations" />
+        <meta property="og:title" content="Accommodations | Jungle Stay Munnar – Eco Tents & Cottages" />
+        <meta property="og:description" content="Choose from eco tents, romantic cottages, and group-friendly stays at Jungle Stay Munnar. Experience comfort in the heart of nature." />
+        <meta property="og:image" content="https://jungle-stay-munnar.pages.dev/assets/images/accommodation-cover.jpg" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://jungle-stay-munnar.pages.dev/accommodations" />
+        <meta property="twitter:title" content="Accommodations | Jungle Stay Munnar – Eco Tents & Cottages" />
+        <meta property="twitter:description" content="Explore tents, cottages, and family stays at Jungle Stay Munnar. Eco-friendly comfort for every traveler." />
+        <meta property="twitter:image" content="https://jungle-stay-munnar.pages.dev/assets/images/accommodation-cover.jpg" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
