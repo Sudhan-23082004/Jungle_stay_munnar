@@ -9,7 +9,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="../../../public/assets/images/Home Page/Hero.jpg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          src="https://live-liamtra-blog.s3.ap-south-1.amazonaws.com/2021/08/Munnar-Explore-The-Best-Monsoon-Destinations-In-India-1024x585.png"
           alt="Scenic jungle landscape with tent accommodation"
           className="w-full h-full object-cover"
         />
