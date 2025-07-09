@@ -14,15 +14,30 @@ const AboutUs = () => {
 
   return (
     <>
-      <Helmet>
-        <title>About Us - Jungle Stay Tent Cottage | Eco-Tourism Excellence</title>
-        <meta name="description" content="Discover Junglestay's story, mission, and commitment to sustainable eco-tourism. Meet our expert team and learn about our award-winning environmental practices." />
-        <meta name="keywords" content="eco-tourism, sustainable travel, nature accommodation, jungle stay, environmental conservation, responsible tourism" />
-        <meta property="og:title" content="About Junglestay - Sustainable Eco-Tourism Leaders" />
-        <meta property="og:description" content="Learn about our founder's journey, mission for sustainable tourism, and award-winning commitment to environmental conservation." />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="/about-us" />
-      </Helmet>
+    <Helmet>
+      {/* Primary Meta Tags */}
+      <title>About Us | Jungle Stay Munnar – Eco-Tourism Since 2015</title>
+      <meta name="title" content="About Us | Jungle Stay Munnar – Eco-Tourism Since 2015" />
+      <meta name="description" content="Learn about Jungle Stay Munnar’s mission, vision, and commitment to sustainable eco-tourism. Meet our founder and discover our award-winning journey." />
+      <meta name="keywords" content="About Jungle Stay, Munnar eco-tourism, sustainable travel India, eco stay Munnar, Ashwin Ananda Prabhu, carbon neutral resort Kerala, REDSARD Trust, eco resort story, wildlife conservation Munnar, responsible tourism India" />
+      <meta name="author" content="Jungle Stay Munnar" />
+      <link rel="canonical" href="https://jungle-stay-munnar.pages.dev/about-us" />
+
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://jungle-stay-munnar.pages.dev/about-us" />
+      <meta property="og:title" content="About Us | Jungle Stay Munnar – Eco-Tourism Since 2015" />
+      <meta property="og:description" content="Meet the people and purpose behind Jungle Stay Munnar. Discover how we combine nature, conservation, and authentic experiences to redefine eco-tourism." />
+      <meta property="og:image" content="https://jungle-stay-munnar.pages.dev/assets/images/About/Main.jpg" />
+
+      {/* Twitter */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://jungle-stay-munnar.pages.dev/about-us" />
+      <meta property="twitter:title" content="About Us | Jungle Stay Munnar – Eco-Tourism Since 2015" />
+      <meta property="twitter:description" content="Explore our founder’s vision, eco-initiatives, and milestones in creating India’s leading sustainable eco-tourism retreat in Munnar." />
+      <meta property="twitter:image" content="https://jungle-stay-munnar.pages.dev/assets/images/About/Main.jpg" />
+    </Helmet>
+
 
       <div className="min-h-screen bg-background">
         <Header />
