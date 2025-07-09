@@ -27,7 +27,7 @@ const FeatureHighlights = () => {
       icon: "Home",
       title: "Premium Accommodations",
       description: "Choose from luxury safari tents with modern amenities or rustic cottages that blend comfort with authentic wilderness living experiences.",
-      image: "../../../public/assets/images/Home Page/Premium Accommodations.jpg",
+      image: "https://images.trvl-media.com/lodging/19000000/18360000/18352900/18352806/6ca3b895.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium",
       color: "primary"
     }
   ];
