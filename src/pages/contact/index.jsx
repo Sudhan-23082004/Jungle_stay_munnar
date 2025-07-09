@@ -15,15 +15,25 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - Junglestay Tent Cottage | Get in Touch</title>
-        <meta 
-          name="description" 
-          content="Contact Junglestay Tent Cottage for bookings, inquiries, and support. Located in Bandipur National Park. Phone: +91 98765 43210 | Email: info@junglestay.com" 
-        />
-        <meta name="keywords" content="contact junglestay, bandipur resort contact, tent cottage booking, eco resort inquiries" />
-        <meta property="og:title" content="Contact Us - Junglestay Tent Cottage" />
-        <meta property="og:description" content="Get in touch with Junglestay for your eco-tourism adventure in Bandipur National Park" />
+        {/* Primary Meta Tags */}
+        <title>Contact Us | Jungle Stay Munnar – Book Your Eco-Tourism Adventure</title>
+        <meta name="title" content="Contact Us | Jungle Stay Munnar – Book Your Eco-Tourism Adventure" />
+        <meta name="description" content="Need help with bookings or inquiries? Contact Jungle Stay Munnar for quick assistance, location details, and 24/7 emergency support. Call, email, or WhatsApp us anytime." />
+        <meta name="keywords" content="Contact Jungle Stay, book eco resort Munnar, eco-tourism Kerala contact, call Jungle Stay, eco resort email, Munnar nature stay booking, Kerala travel help, emergency resort number" />
+        <meta name="author" content="Jungle Stay Munnar" />
+        <link rel="canonical" href="https://jungle-stay-munnar.pages.dev/contact" />
+
+        {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jungle-stay-munnar.pages.dev/contact" />
+        <meta property="og:title" content="Contact Us | Jungle Stay Munnar – Book Your Eco-Tourism Adventure" />
+        <meta property="og:description" content="Connect with Jungle Stay Munnar for your bookings and travel inquiries. Get directions, emergency contacts, and response within hours." />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://jungle-stay-munnar.pages.dev/contact" />
+        <meta property="twitter:title" content="Contact Us | Jungle Stay Munnar – Book Your Eco-Tourism Adventure" />
+        <meta property="twitter:description" content="Need support or have a question? Call, WhatsApp, or email Jungle Stay Munnar. Fast response guaranteed." />
       </Helmet>
 
       <div className="min-h-screen bg-background-secondary">
