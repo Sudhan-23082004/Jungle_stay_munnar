@@ -41,15 +41,18 @@ const HeroSection = () => {
             </Button>
           </Link>
 
-          <Button
-            variant="outline"
-            size="lg"
-            iconName="Play"
-            iconPosition="left"
-            className="w-full sm:w-auto h-[52px] bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
-          >
-            Watch Our Story
-          </Button>
+          <a href="https://www.youtube.com/@junglestay-l1l" target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="outline"
+              size="lg"
+              iconName="Play"
+              iconPosition="left"
+              className="w-full sm:w-auto h-[52px] bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
+            >
+              Watch Our Story
+            </Button>
+          </a>
+
         </div>
       </div>
 

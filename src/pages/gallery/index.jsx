@@ -472,6 +472,56 @@ const galleryImages = [
     views: 1250,
     location: "",
     description: ""
+  },
+      {
+    id: 46,
+    src: "assets/images/Others/46.jpg",
+    title: "",
+    category: "Cottages",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+      {
+    id: 47,
+    src: "assets/images/Others/47.jpg",
+    title: "",
+    category: "Cottages",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+      {
+    id: 48,
+    src: "assets/images/Others/48.jpg",
+    title: "",
+    category: "Food",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+        {
+    id: 49,
+    src: "assets/images/Others/49.jpg",
+    title: "",
+    category: "Food",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
+  },
+        {
+    id: 50,
+    src: "assets/images/Others/50.jpg",
+    title: "",
+    category: "Food",
+    type: "image",
+    views: 1250,
+    location: "",
+    description: ""
   }
   ];
 
