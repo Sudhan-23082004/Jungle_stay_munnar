@@ -34,7 +34,7 @@ const ContactInfo = () => {
       id: 1,
       name: 'Instagram',
       icon: 'Instagram',
-      url: 'https://instagram.com/junglestay',
+      url: 'https://instagram.com/junglestay_munnar',
       color: 'text-pink-600 hover:text-pink-700'
     },
     {
@@ -48,7 +48,7 @@ const ContactInfo = () => {
       id: 3,
       name: 'YouTube',
       icon: 'Youtube',
-      url: 'https://youtube.com/@junglestay',
+      url: 'https://youtube.com/@junglestay-l1l',
       color: 'text-red-600 hover:text-red-700'
     }
   ];

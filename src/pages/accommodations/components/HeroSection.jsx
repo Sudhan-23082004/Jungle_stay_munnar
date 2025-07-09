@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          src="assets/images/Others/47.jpg"
           alt="Luxury tent accommodation in natural forest setting"
           className="w-full h-full object-cover"
         />
@@ -26,7 +26,7 @@ const HeroSection = () => {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text-inverse mb-6 leading-tight">
               Choose Your Perfect
-              <span className="block text-accent">Nature Retreat</span>
+              <span className="block text-[#e4ff1a]">Nature Retreat</span>
             </h1>
             
             <p className="text-lg md:text-xl text-text-inverse/90 mb-8 leading-relaxed max-w-2xl">
