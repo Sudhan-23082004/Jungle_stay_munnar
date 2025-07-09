@@ -48,16 +48,25 @@ const BookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Book Your Stay - Junglestay Tent Cottage | Nature Accommodation Booking</title>
-        <meta 
-          name="description" 
-          content="Book your eco-friendly tent or cottage stay at Junglestay. Secure online booking with flexible payment options. Experience nature tourism at its finest." 
-        />
-        <meta name="keywords" content="book tent cottage, nature accommodation booking, eco-tourism reservation, jungle stay booking, outdoor accommodation" />
-        <meta property="og:title" content="Book Your Stay - Junglestay Tent Cottage" />
-        <meta property="og:description" content="Reserve your perfect nature getaway with our secure booking system. Choose from luxury tents, eco cottages, and group packages." />
+        {/* Primary Meta Tags */}
+        <title>Book Your Stay | Jungle Stay Munnar – Secure Nature Getaway</title>
+        <meta name="title" content="Book Your Stay | Jungle Stay Munnar – Secure Nature Getaway" />
+        <meta name="description" content="Reserve your eco-friendly stay at Jungle Stay Munnar. Safe payments, 24/7 support, and instant booking confirmation. Choose tents, cottages, or group packages." />
+        <meta name="keywords" content="book eco stay Munnar, jungle stay booking, nature stay Munnar, eco-tourism Munnar, reserve tent cottage Kerala, Jungle Stay online booking, secure eco stay reservation" />
+        <meta name="author" content="Jungle Stay Munnar" />
+        <link rel="canonical" href="https://jungle-stay-munnar.pages.dev/booking" />
+
+        {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/booking" />
+        <meta property="og:url" content="https://jungle-stay-munnar.pages.dev/booking" />
+        <meta property="og:title" content="Book Your Stay | Jungle Stay Munnar – Secure Nature Getaway" />
+        <meta property="og:description" content="Book your eco-friendly tent or cottage at Jungle Stay Munnar. Fast booking, secure payments, and 24/7 guest support." />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://jungle-stay-munnar.pages.dev/booking" />
+        <meta property="twitter:title" content="Book Your Stay | Jungle Stay Munnar – Secure Nature Getaway" />
+        <meta property="twitter:description" content="Reserve your stay at Jungle Stay Munnar with flexible payment options and quick email confirmation." />
       </Helmet>
 
       <div className="min-h-screen bg-background">
