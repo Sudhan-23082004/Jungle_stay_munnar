@@ -22,9 +22,9 @@ const AccommodationsPage = () => {
       location: 'Kolukumalai Base Camp',
       capacity: '6+ Guests',
       rating: 4.6,
-      pricePerNight: 1700,
+      pricePerNight: 1500,
       description: `Enjoy the adventure of tent living with complimentary dinner and breakfast. Ideal for groups above 6 members. Includes Kolukumalai Jeep Safari.`,
-      images: [{ url: 'assets/images/Tent Stay.JPG', alt: 'Group tent stay in forest' }],
+      images: [{ url: 'assets/images/Others/15.jpg', alt: 'Group tent stay in forest' }],
       amenities: [
         { name: 'Group Tents', icon: 'Users' },
         { name: 'Complimentary Dinner & Breakfast', icon: 'ChefHat' },
@@ -47,7 +47,7 @@ const AccommodationsPage = () => {
       rating: 4.9,
       pricePerNight: 4000,
       description: `Romantic bamboo cottage stay with eco-friendly design, tailored for couples. Includes complimentary dinner and breakfast.`,
-      images: [{ url: 'assets/images/Bamboo Honeymoon Cottage.JPG', alt: 'Cozy bamboo honeymoon cottage' }],
+      images: [{ url: 'assets/images/Others/Bamboo Honeymoon Cottage.JPG', alt: 'Cozy bamboo honeymoon cottage' }],
       amenities: [
         { name: 'Private Cottage', icon: 'Home' },
         { name: 'Romantic Setup', icon: 'Heart' },
@@ -70,7 +70,7 @@ const AccommodationsPage = () => {
       rating: 4.7,
       pricePerNight: 8000,
       description: `Perfect for large families or groups, this cottage accommodates up to 12 guests. Dinner and Breakfast available at ₹350 per head.`,
-      images: [{ url: 'assets/images/Spacious Family Cottage.jpg', alt: 'Large family cottage' }],
+      images: [{ url: 'assets/images/Others/Spacious Family Cottage.jpg', alt: 'Large family cottage' }],
       amenities: [
         { name: 'Large Capacity', icon: 'Users' },
         { name: 'Common Area', icon: 'Home' },
@@ -93,7 +93,7 @@ const AccommodationsPage = () => {
       rating: 4.8,
       pricePerNight: 2500,
       description: `Luxury tent accommodation with scenic forest views. Includes complimentary dinner and breakfast.`,
-      images: [{ url: 'assets/images/Premium Forest Luxury Tent.jpg', alt: 'Luxury forest tent setup' }],
+      images: [{ url: 'assets/images/Others/46.jpg', alt: 'Luxury forest tent setup' }],
       amenities: [
         { name: 'Luxury Tent', icon: 'Bed' },
         { name: 'Forest Views', icon: 'Trees' },
@@ -116,7 +116,7 @@ const AccommodationsPage = () => {
       rating: 4.7,
       pricePerNight: 3000,
       description: `Modern A-frame cottage nestled on a scenic slope. Comes with complimentary dinner and breakfast.`,
-      images: [{ url: 'assets/images/A-Frame Cottage.jpg', alt: 'A-Frame cottage in greenery' }],
+      images: [{ url: 'assets/images/Others/A-Frame Cottage.jpg', alt: 'A-Frame cottage in greenery' }],
       amenities: [
         { name: 'A-Frame Architecture', icon: 'Home' },
         { name: 'Scenic Views', icon: 'Mountain' },
@@ -139,7 +139,7 @@ const AccommodationsPage = () => {
       rating: 4.9,
       pricePerNight: 3000,
       description: `Thrilling jeep safari through rugged terrains of Kolukumalai. Max 6 persons per trip.`,
-      images: [{ url: 'assets/images/Kolukumalai Jeep Safari.webp', alt: 'Jeep climbing Kolukumalai trail' }],
+      images: [{ url: 'assets/images/Others/Kolukumalai Jeep Safari.webp', alt: 'Jeep climbing Kolukumalai trail' }],
       amenities: [
         { name: 'Jeep Ride', icon: 'Car' },
         { name: 'Local Guide', icon: 'UserCheck' },
@@ -162,7 +162,7 @@ const AccommodationsPage = () => {
       rating: 4.5,
       pricePerNight: 2500,
       description: `Travel package for 4 people including car transport from Theni to Jungle Stay (Tent & Cottage).`,
-      images: [{ url: 'assets/images/20250416_142552~2.jpg', alt: 'Private car transport' }],
+      images: [{ url: 'assets/images/Others/20250416_142552~2.jpg', alt: 'Private car transport' }],
       amenities: [
         { name: 'Private Car', icon: 'Car' },
         { name: 'Group Pickup', icon: 'Users' },
