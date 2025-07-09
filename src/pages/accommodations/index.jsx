@@ -47,7 +47,7 @@ const AccommodationsPage = () => {
       rating: 4.9,
       pricePerNight: 4000,
       description: `Romantic bamboo cottage stay with eco-friendly design, tailored for couples. Includes complimentary dinner and breakfast.`,
-      images: [{ url: 'assets/images/Others/Bamboo Honeymoon Cottage.JPG', alt: 'Cozy bamboo honeymoon cottage' }],
+      images: [{ url: 'assets/images/Others/Bamboo Honeymoon Cottage.png', alt: 'Cozy bamboo honeymoon cottage' }],
       amenities: [
         { name: 'Private Cottage', icon: 'Home' },
         { name: 'Romantic Setup', icon: 'Heart' },
