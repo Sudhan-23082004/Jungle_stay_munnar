@@ -17,12 +17,18 @@ const ContactForm = () => {
             Message Sent Successfully!
           </h3>
           <p className="text-text-secondary font-body">
-            Thank you for contacting us. We'll get back to you within 2-4 hours during business hours.
+            Thank you for contacting us. We'll get back to you within 2–4 hours during business hours.
           </p>
         </div>
       </div>
     );
   }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    e.target.submit(); // Allow form to actually submit to Formspree
+    setSubmitted(true);
+  };
 
   return (
     <div className="bg-background rounded-xl shadow-organic-medium p-6 lg:p-8">
@@ -36,15 +42,13 @@ const ContactForm = () => {
       </div>
 
       <form
-        action="https://formspree.io/f/manjgjwj"
+        action="https://formspree.io/f/mjkrqjye"
         method="POST"
         className="space-y-6"
-        onSubmit={() => setSubmitted(true)}
+        onSubmit={handleSubmit}
       >
-        {/* Honeypot for spam bots */}
         <input type="text" name="_gotcha" style={{ display: 'none' }} />
-        {/* Optional redirect */}
-        <input type="hidden" name="_next" value="http://localhost:4028/contact-success" />
+        <input type="hidden" name="_next" value={`${window.location.origin}/contact-success`} />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
@@ -106,7 +110,7 @@ const ContactForm = () => {
             rows="5"
             required
             placeholder="Please provide details about your inquiry..."
-            className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-organic-fast bg-background text-text-primary resize-vertical"
+            className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-organic-fast bg-background text-text-primary resize-y"
           ></textarea>
         </div>
 
@@ -116,15 +120,34 @@ const ContactForm = () => {
           </label>
           <div className="flex space-x-6">
             <label className="flex items-center">
-              <input type="radio" name="contactPreference" value="email" defaultChecked className="w-4 h-4 text-primary border-border focus:ring-primary" />
+              <input
+                type="radio"
+                name="contactPreference"
+                value="email"
+                required
+                defaultChecked
+                className="w-4 h-4 text-primary border-border focus:ring-primary"
+              />
               <span className="ml-2 text-sm text-text-primary">Email</span>
             </label>
             <label className="flex items-center">
-              <input type="radio" name="contactPreference" value="phone" className="w-4 h-4 text-primary border-border focus:ring-primary" />
+              <input
+                type="radio"
+                name="contactPreference"
+                value="phone"
+                required
+                className="w-4 h-4 text-primary border-border focus:ring-primary"
+              />
               <span className="ml-2 text-sm text-text-primary">Phone</span>
             </label>
             <label className="flex items-center">
-              <input type="radio" name="contactPreference" value="whatsapp" className="w-4 h-4 text-primary border-border focus:ring-primary" />
+              <input
+                type="radio"
+                name="contactPreference"
+                value="whatsapp"
+                required
+                className="w-4 h-4 text-primary border-border focus:ring-primary"
+              />
               <span className="ml-2 text-sm text-text-primary">WhatsApp</span>
             </label>
           </div>
@@ -149,7 +172,7 @@ const ContactForm = () => {
             <div>
               <p className="text-sm text-accent font-medium mb-1">Quick Response Guarantee</p>
               <p className="text-xs text-text-secondary">
-                We respond to all inquiries within 2-4 hours during business hours (8 AM - 8 PM). For urgent booking requests, please call us directly.
+                We respond to all inquiries within 2–4 hours during business hours (8 AM – 8 PM). For urgent booking requests, please call us directly.
               </p>
             </div>
           </div>
