@@ -139,11 +139,11 @@ const SuccessMessage = ({ bookingData, onNewBooking }) => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm">
             <div className="flex items-center space-x-2">
               <Icon name="Phone" size={16} className="text-secondary-600" />
-              <span className="text-text-primary font-medium">+91 98765 43210</span>
+              <span className="text-text-primary font-medium">+91 90801 00081</span>
             </div>
             <div className="flex items-center space-x-2">
               <Icon name="Mail" size={16} className="text-secondary-600" />
-              <span className="text-text-primary font-medium">info@junglestay.com</span>
+              <span className="text-text-primary font-medium">mashwin789@gmail.com</span>
             </div>
           </div>
         </div>
