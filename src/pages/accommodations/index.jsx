@@ -220,14 +220,14 @@ const AccommodationsPage = () => {
         <meta property="og:url" content="https://jungle-stay-munnar.pages.dev/accommodations" />
         <meta property="og:title" content="Accommodations | Jungle Stay Munnar – Eco Tents & Cottages" />
         <meta property="og:description" content="Choose from eco tents, romantic cottages, and group-friendly stays at Jungle Stay Munnar. Experience comfort in the heart of nature." />
-        <meta property="og:image" content="https://jungle-stay-munnar.pages.dev/assets/images/accommodation-cover.jpg" />
+        <meta property="og:image" content="https://jungle-stay-munnar.pages.dev/assets/images/Others/47.jpg" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://jungle-stay-munnar.pages.dev/accommodations" />
         <meta property="twitter:title" content="Accommodations | Jungle Stay Munnar – Eco Tents & Cottages" />
         <meta property="twitter:description" content="Explore tents, cottages, and family stays at Jungle Stay Munnar. Eco-friendly comfort for every traveler." />
-        <meta property="twitter:image" content="https://jungle-stay-munnar.pages.dev/assets/images/accommodation-cover.jpg" />
+        <meta property="twitter:image" content="https://jungle-stay-munnar.pages.dev/assets/images/Others/47.jpg" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
