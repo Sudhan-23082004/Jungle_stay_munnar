@@ -11,7 +11,7 @@ const FeatureHighlights = () => {
       icon: "Leaf",
       title: "Eco-Friendly Living",
       description: "Experience sustainable tourism with our solar-powered accommodations, rainwater harvesting systems, and zero-waste practices that protect the natural ecosystem.",
-      image: "../../../public/assets/images/Home Page/Eco-Friendly Living.jpg",
+      image: "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1525170424/Tea_plantations_in_Munnar_1525170411.jpg",
       color: "success"
     },
     {
