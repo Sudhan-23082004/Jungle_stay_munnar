@@ -593,15 +593,28 @@ const galleryImages = [
   return (
     <>
       <Helmet>
-        <title>Gallery - Junglestay Tent Cottage | Nature Photography & Videos</title>
-        <meta name="description" content="Explore our stunning gallery of tent accommodations, forest cottages, adventure activities, local cuisine, and breathtaking night views at Junglestay." />
-        <meta name="keywords" content="junglestay gallery, tent photos, cottage images, nature photography, eco-tourism, adventure activities, forest accommodation" />
-        <meta property="og:title" content="Gallery - Junglestay Tent Cottage" />
-        <meta property="og:description" content="Discover the beauty of Junglestay through our curated gallery of accommodations, activities, and natural landscapes." />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="/gallery" />
-      </Helmet>
+        {/* Primary Meta Tags */}
+        <title>Gallery | Jungle Stay Munnar – Nature, Tents & Eco Cottages</title>
+        <meta name="title" content="Gallery | Jungle Stay Munnar – Nature, Tents & Eco Cottages" />
+        <meta name="description" content="Browse our photo gallery to explore Jungle Stay Munnar's eco-friendly tents, cottages, scenic night views, delicious food, and exciting jungle activities." />
+        <meta name="keywords" content="Jungle Stay Munnar gallery, Munnar eco stay photos, jungle tent images, cottage stay Munnar, Kolukkumalai view, nature stay Kerala, Munnar night view, adventure camp images" />
+        <meta name="author" content="Jungle Stay Munnar" />
+        <link rel="canonical" href="https://jungle-stay-munnar.pages.dev/gallery" />
 
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jungle-stay-munnar.pages.dev/gallery" />
+        <meta property="og:title" content="Gallery | Jungle Stay Munnar – Nature, Tents & Eco Cottages" />
+        <meta property="og:description" content="See stunning visuals of our tents, cottages, campfires, adventure activities, and serene landscapes from Jungle Stay Munnar." />
+        <meta property="og:image" content="https://jungle-stay-munnar.pages.dev/gallery" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://jungle-stay-munnar.pages.dev/gallery" />
+        <meta property="twitter:title" content="Gallery | Jungle Stay Munnar – Nature, Tents & Eco Cottages" />
+        <meta property="twitter:description" content="Explore Jungle Stay's beauty through our curated photo and video gallery featuring eco-tents, cottages, and night views." />
+        <meta property="twitter:image" content="https://jungle-stay-munnar.pages.dev/gallery" />
+      </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
 
