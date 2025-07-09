@@ -20,7 +20,7 @@ const Gallery = () => {
 const galleryImages = [
   {
     id: 1,
-    src: "assets/images/6.JPG",
+    src: "https://drive.google.com/file/d/1rw-B0LdN5Tj19d1CKrA1VH2BB4F6rPVv/view?usp=sharing.jpg",
     title: "Luxury Safari Tent",
     category: "",
     type: "image",
