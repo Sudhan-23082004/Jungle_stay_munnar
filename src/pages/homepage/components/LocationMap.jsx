@@ -94,8 +94,9 @@ const LocationMap = () => {
                   Get Directions
                 </Button>
               </div>
+
+              
             </div>
-          </div>
           {/* ---- Ad Banner Here ---- */}
           <div className="my-8 text-center">
             <div className="mobileShow">
@@ -104,6 +105,7 @@ const LocationMap = () => {
             <div className="mobileHide">
               <AdBanner adKey="cca8421c8683c1dde9b44ddfaf74d182" width={728} height={90} />
             </div>
+          </div>
           </div>
           {/* Location Info */}
           <div className="order-1 lg:order-2 space-y-8">
@@ -181,6 +183,7 @@ const LocationMap = () => {
               </Link>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
