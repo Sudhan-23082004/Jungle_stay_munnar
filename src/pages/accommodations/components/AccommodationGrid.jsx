@@ -18,6 +18,8 @@ const AccommodationGrid = ({ accommodations, isLoading }) => {
               </div>
               <div className="h-10 bg-border-muted rounded" />
             </div>
+                    {/* ---- Native Ad Here ---- */}
+        <NativeAd adId="cae31ddbe7936182a806a180970b79ea" />
           </div>
         ))}
       </div>
