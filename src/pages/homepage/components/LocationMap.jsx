@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 import { Link } from 'react-router-dom';
-import AdBanner from "../../../components/AdBanner";
+import NativeAd from "../../../components/NativeAd";
 
 
 const LocationMap = () => {
@@ -97,10 +97,8 @@ const LocationMap = () => {
 
               
             </div>
-          {/* ---- Ad Banner Here ---- */}
-          <div className="my-8 text-center">
-              <AdBanner adKey="add4b7b2c73f724b5d9de0e327308b99" width={320} height={50} />
-          </div>
+            {/* ---- Native Ad Here ---- */}
+            <NativeAd adId="cae31ddbe7936182a806a180970b79ea" />
           </div>
           {/* Location Info */}
           <div className="order-1 lg:order-2 space-y-8">
