@@ -102,9 +102,6 @@ const LocationMap = () => {
             <div className="mobileShow">
               <AdBanner adKey="add4b7b2c73f724b5d9de0e327308b99" width={320} height={50} />
             </div>
-            <div className="mobileHide">
-              <AdBanner adKey="add4b7b2c73f724b5d9de0e327308b99" width={728} height={90} />
-            </div>
           </div>
           </div>
           {/* Location Info */}
