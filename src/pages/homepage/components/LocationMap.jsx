@@ -99,9 +99,7 @@ const LocationMap = () => {
             </div>
           {/* ---- Ad Banner Here ---- */}
           <div className="my-8 text-center">
-            <div className="mobileShow">
               <AdBanner adKey="add4b7b2c73f724b5d9de0e327308b99" width={320} height={50} />
-            </div>
           </div>
           </div>
           {/* Location Info */}
