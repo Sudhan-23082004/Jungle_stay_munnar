@@ -1,5 +1,6 @@
 import React from 'react';
 import AccommodationCard from './AccommodationCard';
+import NativeAd from "../../../components/NativeAd";
 
 const AccommodationGrid = ({ accommodations, isLoading }) => {
   if (isLoading) {
