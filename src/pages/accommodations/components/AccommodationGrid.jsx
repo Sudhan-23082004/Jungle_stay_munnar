@@ -1,5 +1,6 @@
 import React from 'react';
 import AccommodationCard from './AccommodationCard';
+import NativeAd from "../../../components/NativeAd";
 
 const AccommodationGrid = ({ accommodations, isLoading }) => {
   if (isLoading) {
@@ -51,6 +52,8 @@ const AccommodationGrid = ({ accommodations, isLoading }) => {
         />
       ))}
     </div>
+                {/* ---- Native Ad Here ---- */}
+                <NativeAd adId="cae31ddbe7936182a806a180970b79ea" />
   );
 };
 
