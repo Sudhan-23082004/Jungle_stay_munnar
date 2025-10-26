@@ -50,8 +50,6 @@ const AccommodationGrid = ({ accommodations, isLoading }) => {
           accommodation={accommodation}
         />
       ))}
-                      {/* ---- Native Ad Here ---- */}
-                      <NativeAd adId="cae31ddbe7936182a806a180970b79ea" />
     </div>
     
   );
