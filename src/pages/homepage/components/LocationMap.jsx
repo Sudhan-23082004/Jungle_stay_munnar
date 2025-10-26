@@ -100,10 +100,10 @@ const LocationMap = () => {
           {/* ---- Ad Banner Here ---- */}
           <div className="my-8 text-center">
             <div className="mobileShow">
-              <AdBanner adKey="996aa6079ae4050362bbc8582226184f" width={320} height={50} />
+              <AdBanner adKey="add4b7b2c73f724b5d9de0e327308b99" width={320} height={50} />
             </div>
             <div className="mobileHide">
-              <AdBanner adKey="cca8421c8683c1dde9b44ddfaf74d182" width={728} height={90} />
+              <AdBanner adKey="add4b7b2c73f724b5d9de0e327308b99" width={728} height={90} />
             </div>
           </div>
           </div>
