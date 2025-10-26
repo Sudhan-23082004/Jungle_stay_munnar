@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 import { Link } from 'react-router-dom';
+import AdBanner from "../../../components/AdBanner";
+
 
 const LocationMap = () => {
   const [isMapLoaded, setIsMapLoaded] = useState(false);
@@ -94,7 +96,15 @@ const LocationMap = () => {
               </div>
             </div>
           </div>
-
+          {/* ---- Ad Banner Here ---- */}
+          <div className="my-8 text-center">
+            <div className="mobileShow">
+              <AdBanner adKey="996aa6079ae4050362bbc8582226184f" width={320} height={50} />
+            </div>
+            <div className="mobileHide">
+              <AdBanner adKey="cca8421c8683c1dde9b44ddfaf74d182" width={728} height={90} />
+            </div>
+          </div>
           {/* Location Info */}
           <div className="order-1 lg:order-2 space-y-8">
             {/* Attractions */}
